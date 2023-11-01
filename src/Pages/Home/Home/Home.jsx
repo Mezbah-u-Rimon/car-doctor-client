@@ -1,5 +1,3 @@
-import Slider from "../../Shared/Navbar/Slider";
-import Spinner from "../../Shared/Navbar/Spinner";
 import About from "../About/About";
 import Banner from "../Banner/Banner";
 import CallSection from "../CallSection/CallSection";
@@ -13,8 +11,6 @@ const Home = () => {
             <About></About>
             <Services></Services>
             <CallSection></CallSection>
-            <Spinner></Spinner>
-            <Slider></Slider>
         </div>
     );
 };
